@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Desafío encriptador</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/Logo.png" class="logoAlura">
+
+    </header>
+
+
+    <main>
+        <section class="contenido">
+            <div class="input">
+
+                <textarea cols="100" rows="5" id="mensaje" class="input-padron"
+                    placeholder="Ingrese aquí su texto"></textarea>
+            </div>
+
+            <div class="output">
+
+                <textarea cols="100" rows="5" id="mensajeResultado" class="output-padron"
+                    placeholder="Su texto modificado"></textarea>
+            </div>
+
+            <div class="condiciones">
+                <h4 class="informacion">Ingresar el mensaje utilizando únicamente letras minúsculas y sin acentos</h4>
+            </div>
+
+            <div class="botonera">
+
+                <button id="btnEncrip" onclick="btnEncriptar()">
+                    ENCRIPTAR
+                </button>
+
+                <button id="btnDesencrip" onclick="btnDesencriptar()">
+                    DESENCRIPTAR
+                </button>
+
+                <button id="btnCopiar" onclick="copiar()" >
+                    COPIAR MENSAJE
+                </button>
+       
+                <button id="btnBorrar" onclick="borrar()" >
+                    BORRAR MENSAJE
+                </button>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>
+            DESAFÍO ENCRIPTADOR - IGNACIO JOSÉ DATES
+        </p>
+
+    </footer>
+
+    <script src="logica-desafio.js"></script>
+
+
+</body>
+
+
+</html>

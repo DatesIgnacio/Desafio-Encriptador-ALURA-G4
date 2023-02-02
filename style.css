@@ -1,0 +1,90 @@
+body {
+
+    background: #e5e5e5e5;
+}
+
+
+.contenedor {
+ 
+    background: rgb(205, 226, 233);
+    width: 80%;
+    margin: 20px auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logoAlura {
+    width: 120px;
+    height: 48px;
+    margin-left: 5px;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 0.5px solid #818faae5;
+}
+
+main{
+    background: url(img/fondo.png) ;
+}
+
+section{
+    padding: 75px;
+}
+.contenido{
+    align-items: center;
+}
+
+.condiciones{
+    background: #AAAAAA; 
+    text-align: center;
+
+    margin: 25px;
+    padding: 1px ;
+
+}
+
+.input, .output{
+    display: inline;
+    
+}
+
+.input-padron {
+
+    width: 40%;
+    margin: 20px 30px;
+    display: inline-block;
+    align-items: flex-start;
+}
+.output-padron {
+    width: 40%;
+    margin: 20px 30px;
+    display: inline-block;
+    align-items: flex-end;
+}
+
+.botonera{
+    padding: 50px;
+}
+
+button {
+    opacity: 100%;
+    margin: 25px 35px;
+    color: white; 
+    width: 178px;
+    height: 37px;
+    background: #0A3871;
+    border-radius: 24px;
+  
+}
+
+footer {
+    width: 100%;
+    border-top: 0.5px solid #818faae5;
+    position: absolute;
+    bottom: 0;
+}
+
+footer p {
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
