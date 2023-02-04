@@ -4,7 +4,7 @@ const inputResultado = document.querySelector("#mensajeResultado");
 
 function validarTexto() {
   let textoEscrito = document.querySelector("#mensaje").value;
-  let validador = textoEscrito.match(/^[a-z]*$/);
+  let validador = textoEscrito.match(/^[a-z /s]*$/);
 
   if (!validador || validador === 0) {
     alert("Sea tan amable de ingresar nuevamente el mensaje con letras minúsculas y sin acentos")
